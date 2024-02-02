@@ -1,0 +1,16 @@
+.letterRow{
+    display: flex;
+}
+
+.letterColumn{
+    display: block;
+    width: 4rem;
+    padding: .5rem 0;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.letterColor{
+    background-color: var(--greenTransparent);
+}

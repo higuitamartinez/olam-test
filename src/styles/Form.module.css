@@ -1,0 +1,169 @@
+.containerForm{
+    background-color: #FFF;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    label{
+        span{
+            font-weight: 700;
+            color: var(--blue);
+        }
+        .required{
+            color: var(--orange);
+        }
+    }
+
+}
+
+.titleForm{
+    margin-bottom: .8rem;
+}
+
+.labelSubtitle{
+    display: block;
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    color: var(--grayLetter)
+}
+
+.textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid var(--gray);
+    border-radius: .5rem;
+    padding: .8rem;
+    resize: none;
+    min-height: 25rem;
+    max-height: 100%;
+}
+
+.notification{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.subtitle{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 1rem 0 0 0;
+    text-align: center;
+}
+
+.subtitleLength{
+    display: block;
+    text-align: center;
+    color: var(--grayLetter);
+    font-size: 1.4rem;
+    margin-top: .3rem;
+}
+
+/*buttons*/
+.containerBtn{
+    margin-top: 1rem;
+}
+
+.btn{
+    display: block;
+    padding: .8rem;
+    border: none;
+    font-weight: 700;
+    border-radius: .5rem;
+    width: 100%;
+    transition: .3s ease background-color;
+}
+
+.btnUnique{
+    margin-top: 1.5rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btnNext{
+    background-color: var(--green);
+    color: #FFF;
+}
+
+.btnNext:hover{
+    background-color: #0b9b49;
+}
+
+.btnBack{
+    background-color: var(--grayLight);
+}
+
+.btnBack:hover{
+    background-color: #cbd7dd;
+}
+
+.btnReload{
+    background-color: var(--blue);
+    color: #FFF;
+}
+
+.btnReload:hover{
+    background-color: #314653;
+}
+
+.btnNextContainer{
+    order: 1;
+    margin-bottom: 1rem;
+}
+
+/*Soup*/
+.soupForm{
+    width: 100%;
+}
+
+.soupContainer{
+    max-width: 100%;
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.soup{
+    display: inline-block;
+    padding: 0;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0;
+}
+
+
+/*words*/
+.words{
+    li{
+      margin-bottom: .3rem;  
+    }
+}
+
+@media(min-width: 768px){
+    .divForm{
+        display: flex;
+    }
+    .userForm{
+        padding-right: 1rem;
+        margin-right: 1rem;
+        border-right: 1px solid var(--gray);
+        width: 50%;
+    }
+    .soupForm{
+        width: 50%;
+    }
+
+    .subtitle{
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 480px){
+    .containerBtn{
+        display: flex;
+    }
+    .btnNextContainer{
+        order: 1;
+        margin-left: 1rem;
+        margin-bottom: 0;
+    }
+}
