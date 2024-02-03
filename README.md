@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Prueba Olam Creative
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Código realizado con React + TypeScript
 
-Currently, two official plugins are available:
+## Demo:
+Pruedes entrar al siguiente enlace para probar la aplicación: [https://prueba-olam.netlify.app]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Recursos especiales
 
-## Expanding the ESLint configuration
+- Se utilizaron arreglos para almacenar la sopa de letras y las palabras
+- Uso de ciclos y funciones de arreglos tales como `includes` para dar con las palabras existentes y no existentes
+- Las funciones que validan las entradas (`handleChangeSoup`, `handleChangeWords`) y retornan las palabras existentes y no existentes (`handleResult`) se encuentran en el archivo `src/context/PageProvider.tsx`
+- Se desplegó la aplicación en netlify para facilitar la accesibilidad a la prueba
+- Se utilizó vite para crear la aplicación de React + TypeScript
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Guía de despliegue:
+- Descargar el repositorio
+- `npm install`
+- `npm run dev`
+- La aplicación queda corriendo localmente en el puerto 5173 [http://localhost:5173]
 
-- Configure the top-level `parserOptions` property like this:
+## Ejemplo de uso:
+Predes ingresar culquier matriz cuadrada desde 4x4
+- Sopa de letras: Filas separadas con enter y columnas con una coma
+<br/><br/>
+b,u,g,r,e,r,d,a,b,o<br/>
+b,a,l,l,e,n,a,s,a,b<br/> 
+o,j,l,m,a,b,o,h,r,n<br/>
+l,e,b,o,t,o,n,e,c,i<br/>
+s,h,m,u,n,b,n,u,o,b<br/>
+o,b,u,f,a,n,d,a,b,o<br/>
+n,b,s,g,b,t,h,b,p,t<br/>
+b,u,h,o,j,b,c,e,b,a<br/>
+o,d,u,b,s,o,h,u,v,t<br/>
+m,b,a,n,d,e,r,a,s,a
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Palabras: Separadas con enter
+<br/><br/>
+barco<br/>
+buho<br/>
+bandera<br/>
+bota<br/>
+ballena<br/>
+bolso<br/>
+bufanda<br/>
+ave<br/>
+balon<br/>
+boton<br/>
+reloj<br/>
+camisa

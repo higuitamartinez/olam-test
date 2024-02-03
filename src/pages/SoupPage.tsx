@@ -45,8 +45,8 @@ const SoupPage = () => {
                     <div className={styles.titleForm}>
                         <label
                             htmlFor="letters"
-                        ><span>1. </span>Sopa de letras (Matríz)<span className={styles.required}>*</span></label>
-                        <span className={styles.labelSubtitle}>Separa las filas con enter y las columnas con una coma. Mínimo 4 filas y 4 columnas</span>
+                        ><span>1. </span>Sopa de letras (Matriz)<span className={styles.required}>*</span></label>
+                        <span className={styles.labelSubtitle}>Separa las filas con enter y las columnas con una coma. Mínimo 4 filas y 4 columnas. El número de filas y columnas debe de ser igual</span>
                     </div>
                     <textarea 
                         name="letters"
