@@ -20,7 +20,7 @@ Pruedes entrar al siguiente enlace para probar la aplicación: https://prueba-ol
 - La aplicación queda corriendo localmente en el puerto 5173 http://localhost:5173
 
 ## Ejemplo de uso
-Predes ingresar culquier matriz cuadrada desde 4x4
+Puedes ingresar cualquier matriz cuadrada desde 4x4
 - Sopa de letras: Filas separadas con enter y las columnas con una coma
 <br/><br/>
 b,u,g,r,e,r,d,a,b,o<br/>
