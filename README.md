@@ -3,7 +3,7 @@
 Código realizado con React + TypeScript
 
 ## Demo:
-Pruedes entrar al siguiente enlace para probar la aplicación: [https://prueba-olam.netlify.app]
+Pruedes entrar al siguiente enlace para probar la aplicación: https://prueba-olam.netlify.app
 
 ## Recursos especiales
 
@@ -17,7 +17,7 @@ Pruedes entrar al siguiente enlace para probar la aplicación: [https://prueba-o
 - Descargar el repositorio
 - `npm install`
 - `npm run dev`
-- La aplicación queda corriendo localmente en el puerto 5173 [http://localhost:5173]
+- La aplicación queda corriendo localmente en el puerto 5173 http://localhost:5173
 
 ## Ejemplo de uso:
 Predes ingresar culquier matriz cuadrada desde 4x4
