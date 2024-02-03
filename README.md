@@ -13,13 +13,13 @@ Pruedes entrar al siguiente enlace para probar la aplicación: https://prueba-ol
 - Se desplegó la aplicación en netlify para facilitar la accesibilidad a la prueba
 - Se utilizó vite para crear la aplicación de React + TypeScript
 
-## Guía de despliegue:
+## Guía de despliegue
 - Descargar el repositorio
 - `npm install`
 - `npm run dev`
 - La aplicación queda corriendo localmente en el puerto 5173 http://localhost:5173
 
-## Ejemplo de uso:
+## Ejemplo de uso
 Predes ingresar culquier matriz cuadrada desde 4x4
 - Sopa de letras: Filas separadas con enter y columnas con una coma
 <br/><br/>
