@@ -2,7 +2,7 @@
 
 Código realizado con React + TypeScript
 
-## Demo:
+## Demo
 Pruedes entrar al siguiente enlace para probar la aplicación: https://prueba-olam.netlify.app
 
 ## Recursos especiales
